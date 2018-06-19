@@ -1,0 +1,182 @@
+.activity_container {
+    height: 100%;
+    overflow: auto;
+}
+
+.fixed_box {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    height: 1.222rem;
+    line-height: 1.222rem;
+    width: 100%;
+    font-size: 0.389rem;
+    color: #2e343b;
+    background-color: #f2f3f8;
+}
+
+.fixed_box .ranage_select {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.fixed_box .triangle_down {
+    width: 0.278rem;
+    height: 0.278rem;
+    background: url("../../images/triangle_down.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.fixed_box .triangle_up {
+    width: 0.278rem;
+    height: 0.278rem;
+    background: url("../../images/triangle_up.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.fixed_box .check {
+    width: 0.444rem;
+    height: 0.444rem;
+    background: url("../../images/check.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.fixed_box .selector_container {
+    position: absolute;
+    top: 1.222rem;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.fixed_box .ranage_select .selected {
+    margin-right: 0.194rem;
+    display: inline-block;
+}
+
+.selector_container li {
+    position: relative;
+    font-size: 0.389rem;
+    color: #9fa3a8;
+    height: 1.037rem;
+    line-height: 1.037rem;
+    text-align: center;
+}
+
+.selector_container li.active {
+    color: #2e343b;
+}
+
+.selector_container .check {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.222rem;
+    right: 0.556rem;
+}
+
+.activity_list {
+    padding-top: 1.222rem;
+    overflow: auto;
+}
+
+.activity_item {
+    padding: 0.352rem;
+    border-bottom: 1px solid #e6e6e6;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.activity_logo {
+    width: 3.430rem;
+    height: 2.047rem;
+    border-radius: 0.352rem;
+}
+
+.activity_detail {
+    position: relative;
+    margin-left: 3.781rem;
+    height: 2.047rem;
+}
+
+.activity_detail div {
+    font-size: 0.281rem;
+    color: #9fa3a8;
+}
+
+.activity_detail .activity_title {
+    font-size: 0.375rem;
+    color: #2e343b;
+    font-weight: bold;
+    line-height: 0.54rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.activity_detail .activity_address {
+    position: absolute;
+    bottom: 0.049rem;
+}
+
+.activity_detail .bottom {
+    margin-bottom: 0.164rem;
+}
+
+.activity_detail .active {
+    color: #2e343b;
+}
+
+.spinner {
+    margin: auto;
+    width: 0.7rem;
+    text-align: center;
+}
+
+.spinner>div {
+    width: 0.18rem;
+    height: 0.18rem;
+    background-color: #333;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}

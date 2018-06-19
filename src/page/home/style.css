@@ -1,0 +1,172 @@
+.user_container {
+    background-color: #f2f3f8;
+    height: 100%;
+}
+
+.user_container .header {
+    margin-bottom: 0.278rem;
+    padding: 0 0.556rem;
+    height: 2.389rem;
+    line-height: 2.389rem;
+    background-color: #ffffff;
+}
+
+.avatar {
+    display: inline-block;
+    margin-right: 0.417rem;
+    width: 1.556rem;
+    height: 1.556rem;
+    border-radius: 1.556rem;
+    border: 0.046rem solid #faf3f8;
+    vertical-align: middle;
+    background: url('../../images/avatar.png');
+    background-size: contain;
+}
+
+.user_container .logout_avatar {
+    display: inline-block;
+    margin-right: 0.417rem;
+    width: 1.556rem;
+    height: 1.556rem;
+    border-radius: 1.556rem;
+    border: 0.046rem solid #faf3f8;
+    vertical-align: middle;
+    background: url('../../images/logout_avatar.png');
+    background-size: contain;
+}
+
+.user_container .profile {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user_container .name {
+    font-size: 0.444rem;
+    color: #2e343b;
+}
+
+.user_container .id {
+    margin-top: 0.222rem;
+    font-size: 0.333rem;
+    color: #9fa3a8;
+}
+
+.user_container .title {
+    position: relative;
+    padding-left: 0.556rem;
+    background-color: #ffffff;
+    height: 1.111rem;
+    line-height: 1.111rem;
+    font-size: 0.389rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+.user_container .message {
+    margin-bottom: 0.278rem;
+    padding: 0 0.556rem;
+    background-color: #ffffff;
+}
+
+.user_container .item {
+    height: 1.222rem;
+    line-height: 1.222rem;
+    font-size: 0.444rem;
+    color: #2e3438;
+}
+
+.user_container .item .btn {
+    color: #673ab7;
+}
+
+.user_container .service {
+    display: flex;
+    height: 2.972rem;
+}
+
+.user_container .box {
+    flex: 1;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.user_container .box .icon {
+    width: 1.333rem;
+    height: 1.333rem;
+    margin: 0.556rem 0 0.194rem 0;
+    display: inline-block;
+}
+
+.user_container .box .express {
+    background: url('../../images/express_icon.png') no-repeat;
+    background-size: contain;
+}
+
+.user_container .box .activity {
+    background: url('../../images/activity_icon.png') no-repeat;
+    background-size: contain;
+}
+
+.user_container .box .vio {
+    background: url('../../images/vio_icon.png') no-repeat;
+    background-size: contain;
+}
+
+.user_container .box .await {
+    background: url('../../images/await.png') no-repeat;
+    background-size: contain;
+}
+
+.user_container .box a {
+    color: #2e343b;
+    font-size: 0.333rem;
+    text-decoration: none;
+    display: block;
+}
+
+.user_container .vertical_line {
+    width: 0.111rem;
+    height: 0.361rem;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0.278rem;
+    margin-top: -0.181rem;
+    border-radius: 0.111rem;
+}
+
+.user_container .vertical_line.green {
+    background-color: #4caf50;
+}
+
+.user_container .vertical_line.orange {
+    background-color: #ff9800;
+}
+
+.user_container .msg {
+    display: inline-block;
+    margin-left: 0.278rem;
+    margin-right: 0.556rem;
+}
+
+.user_container .round {
+    display: inline-block;
+    width: 0.278rem;
+    height: 0.278rem;
+}
+
+.user_container .round.yellow {
+    background: url('../../images/yellow.png') no-repeat;
+    background-size: contain;
+}
+
+.user_container .round.blue {
+    background: url('../../images/blue.png') no-repeat;
+    background-size: contain;
+}
+
+.user_container .round.pink {
+    background: url('../../images/pink.png') no-repeat;
+    background-size: contain;
+}

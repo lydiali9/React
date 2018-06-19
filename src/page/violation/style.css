@@ -1,0 +1,419 @@
+.violation_container {
+    height: 100%;
+    background-color: #f2f3f8;
+    overflow: auto;
+}
+
+.violation_container .content_box {
+    height: 3.333rem;
+    border-radius: 0.333rem;
+    background-color: #ffffff;
+    margin-bottom: 0.417rem
+}
+
+.violation_container .init {
+    position: relative;
+    text-align: center;
+    font-size: 0.333rem;
+    color: #9fa3a8;
+}
+
+.violation_container .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.64rem;
+    margin-left: -1.993rem;
+}
+
+.violation_container .init .add_icon {
+    margin-right: 0.194rem;
+    width: 0.472rem;
+    height: 0.472rem;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../images/add.png") no-repeat;
+    background-size: contain
+}
+
+.violation_container .init .blue {
+    margin-bottom: 0.389rem;
+    text-align: center;
+    font-size: 0.444rem;
+    color: #608bf0
+}
+
+.violation_container .table-container .title {
+    padding: 0 0.556rem;
+    height: 1.333rem;
+    line-height: 1.333rem;
+    border-top-left-radius: 0.389rem;
+    border-top-right-radius: 0.389rem;
+    background: #608bf0;
+}
+
+.violation_container .table-container table {
+    width: 100%;
+    padding: 0 0.556rem;
+    font-size: 0.389rem;
+    color: #2e343b;
+    border-bottom-left-radius: 0.389rem;
+    border-bottom-right-radius: 0.389rem;
+    background-color: #ffffff;
+    margin-bottom: 0.417rem;
+}
+
+.violation_container .table-container .num {
+    font-size: 0.472rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.violation_container .table-container .edit {
+    font-size: 0.389rem;
+    color: #ffffff;
+    opacity: .36;
+}
+
+.violation_container .table-container .red {
+    color: #f44336;
+}
+
+.violation_container .table-container .blue {
+    color: #608bf0;
+    text-align: center;
+}
+
+.violation_container .table-container table tr {
+    height: 1.333rem;
+    line-height: 1.333rem;
+}
+
+.violation_container .table-container .text-right {
+    text-align: right;
+}
+
+.violation_container .violation_records {
+    display: block;
+    margin: 0.417rem 0;
+    padding: 0 0.417rem 0 0.417rem;
+}
+
+.expand {
+    width: 0.556rem;
+    height: 0.556rem;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../../images/more.png') no-repeat;
+    background-size: contain;
+}
+
+.violation_container .expand{
+    margin-top: 0.5rem;
+}
+
+.violation_container .tips {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -0.278rem;
+    width: 0.556rem;
+    height: 0.556rem;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../../images/tips.png') no-repeat;
+    background-size: contain;
+}
+
+.violation_container .license_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.699rem;
+    margin-left: -4.028rem;
+    width: 8.056rem;
+    height: 5.398rem;
+    z-index: 99;
+}
+
+.violation_container .engine {
+    background: url('../../images/engine.png') no-repeat;
+    background-size: contain;
+}
+
+.violation_container .vin {
+    background: url('../../images/VIN.png') no-repeat;
+    background-size: contain;
+}
+
+/*
+    违章记录
+*/
+
+.violation_records .title {
+    background-color: #608bf0;
+    padding-left: 0.556rem;
+    padding-right: 0.556rem;
+    height: 1.333rem;
+    line-height: 1.333rem;
+    color: #ffffff;
+    border-top-left-radius: 0.333rem;
+    border-top-right-radius: 0.333rem;
+}
+
+.violation_records .title .car_num {
+    font-size: 0.472rem;
+    font-weight: bolder;
+}
+
+.violation_records .title .time {
+    font-size: 0.333rem;
+    opacity: .36;
+}
+
+.violation_records .detail {
+    padding: 0.556rem;
+    font-size: 0.444rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.violation_records .detail .position {
+    font-weight: bolder;
+    color: #000000;
+    margin-bottom: 0.333rem;
+}
+
+.violation_records .detail .desc {
+    line-height: 0.667rem;
+    color: #2e343b;
+}
+
+.violation_records .detail .code {
+    margin-top: 0.556rem;
+    font-size: 0.389rem;
+    color: #9fa3a8;
+}
+
+.violation_records .detail .blue {
+    color: #2196f3;
+}
+
+.violation_records .foot {
+    padding-left: 0.556rem;
+    padding-right: 0.556rem;
+    height: 1.333rem;
+    line-height: 1.333rem;
+    font-size: 0.389rem;
+    color: #9fa3a8;
+    border-bottom-left-radius: 0.333rem;
+    border-bottom-right-radius: 0.333rem;
+    background-color: #ffffff;
+}
+
+.violation_records .foot .text {
+    margin: 0 0.556rem 0 0.194rem;
+    display: inline-block;
+}
+
+.violation_records .foot .icon {
+    width: 0.444rem;
+    height: 0.444rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.violation_records .foot .icon.money {
+    background: url('../../images/money.png') no-repeat;
+    background-size: contain;
+}
+
+.violation_records .foot .icon.fen {
+    background: url('../../images/fen.png') no-repeat;
+    background-size: contain;
+}
+
+/*
+    车辆管理
+*/
+
+.violation_car {
+    padding: 0.417rem 0.417rem 0 0.417rem;
+}
+
+.violation_car .title {
+    background-color: #608bf0;
+    padding: 0 0.556rem;
+    color: #ffffff;
+    border-top-left-radius: 0.333rem;
+    border-top-right-radius: 0.333rem;
+    position: relative;
+}
+
+.violation_car .title .box {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.652rem;
+}
+
+.violation_car .title .big {
+    font-size: 0.556rem;
+    font-weight: bolder;
+    margin-bottom: 0.306rem;
+}
+
+.violation_car .title .small {
+    font-size: 0.333rem;
+    opacity: .36;
+}
+
+.violation_car .title.edit {
+    background-color: #ffffff;
+}
+
+.violation_car .title.edit .big {
+    font-weight: bolder;
+    color: #2e343b;
+}
+
+.violation_car .title.edit .small {
+    color: #cdcfd1;
+    opacity: 1;
+}
+
+.violation_car table {
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 0.833rem;
+    border-bottom-left-radius: 0.333rem;
+    border-bottom-right-radius: 0.333rem;
+    background-color: #ffffff;
+}
+
+.violation_car .detail {
+    height: 1.556rem;
+    line-height: 1.556rem;
+    font-size: 0.444rem;
+    color: #2e343b;
+}
+
+.violation_car .detail .attr {
+    padding: 0 0.833rem 0 0.556rem;
+    display: inline-block;
+}
+
+.violation_car .detail .row {
+    padding-right: 0.556rem;
+}
+
+.violation_car .row .num {
+    height: 0.833rem;
+}
+
+.violation_car .row .num .down {
+    float: right;
+    width: 0.278rem;
+    height: 0.278rem;
+    background: url("../../images/down.png") no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 0.278rem;
+    margin-top: 0.278rem;
+}
+
+.violation_car .row .area {
+    font-size: 0.444rem;
+    color: #ffffff;
+    width: 1.944rem;
+    background-color: #608bf6;
+    height: 0.833rem;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 0.833rem;
+    padding-left: 0.417rem;
+    border-top-left-radius: 0.222rem;
+    border-bottom-left-radius: 0.222rem;
+}
+
+.violation_car .row .car_num_input {
+    height: 0.778rem;
+    width: 2.2rem;
+    vertical-align: top;
+    color: #608bf6;
+    padding-left: 0.417rem;
+    border-top-right-radius: 0.222rem;
+    border-bottom-right-radius: 0.222rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 0.028rem solid #608bf6;
+    display: inline-block;
+}
+
+.violation_car .row .area.green {
+    background-color: #4caf50;
+}
+
+.violation_car .row .car_num_input.green {
+    color: #4caf50;
+    border-color: #4caf50;
+}
+
+.violation_car input {
+    width:100%;
+    height: 1.481rem;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #e6e6e6
+}
+
+.violation_car input::-webkit-input-placeholder {
+    font-size: 0.444rem;
+    color: #cdcfd1;
+}
+
+.violation_car input:-moz-placeholder {
+    font-size: 0.444rem;
+    color: #cdcfd1;
+}
+
+.violation_car input::-moz-placeholder {
+    font-size: 0.444rem;
+    color: #cdcfd1;
+}
+
+.violation_car input:-ms-input-placeholder {
+    font-size: 0.444rem;
+    color: #cdcfd1;
+}
+
+.button {
+    border-radius: 0.222rem;
+    font-size: 0.444rem;
+    color: #ffffff;
+    width: 100%;
+    height: 1.333rem;
+    outline: none;
+    margin-bottom: 0.417rem;
+}
+
+.primary {
+    background-color: #608bf0;
+    border: 1px solid #608bf0;
+}
+
+.danger {
+    background-color: #f85145;
+    border: 1px solid #f85145;
+}
+
+.violation_container .fixed_box {
+    top: unset;
+    bottom: 6.222rem;
+    left: 0;
+}
+
+.violation_container .fixed_box .area_ul {
+    height: 6.222rem;
+    overflow: auto;
+}

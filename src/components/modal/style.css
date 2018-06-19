@@ -1,0 +1,72 @@
+.pie_modal_wrapper {
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.pie_modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.139rem;
+    margin-left: -4.167rem;
+    width: 8.333rem;
+    min-height: 4.278rem;
+    font-size: 0.444rem;
+    color: #9fa3a8;
+    border-radius: 0.33rem;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.pie_modal .content {
+    padding: 0 0.556rem;
+    height: 1.889rem;
+    color: #2e343b;
+    text-align: center;
+}
+
+.pie_modal .title {
+    font-size: 0.472rem;
+    color: #2e343b;
+    font-weight: bolder;
+    text-align: center;
+    height: 1.556rem;
+    line-height: 1.556rem;
+}
+
+.pie_modal .foot {
+    height: 1.556rem;
+    line-height: 1.556rem;
+}
+
+.pie_modal .foot .btn {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.pie_modal .foot .blue {
+    color: #608bf0;
+}
+
+.modal_mask {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: .7;
+    z-index: 1000;
+    transition: top .1s;
+    -webkit-transition: top .1s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
